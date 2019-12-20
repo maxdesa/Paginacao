@@ -1,0 +1,78 @@
+<html>
+<head>
+<title>Pagina de Exemplo</title>
+<link rel="stylesheet" type="text/css" href="css/paginacao.css">
+<script src="js/paginacao.js"></script>
+</head>
+<body>
+
+<br/>
+<center><h1>Frutas</h1></center>
+<table border="1" width="500px" align="center" id="tabelaFrutas">
+	<tr>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td><img src="imagens/abacate.png" /></td>
+		<td><img src="imagens/abacaxi.png" /></td>
+		<td><img src="imagens/abiu.png" /></td>
+	</tr>
+	<tr>
+		<td><img src="imagens/ameixa.png" /></td>
+		<td><img src="imagens/atemoia.png" /></td>
+		<td><img src="imagens/banana.png" /></td>
+	</tr>
+	<tr>
+		<td><img src="imagens/blueberry.png" /></td>
+		<td><img src="imagens/cacau.png" /></td>
+		<td><img src="imagens/caja.png" /></td>
+	</tr>
+	<tr>
+		<td><img src="imagens/caju.png" /></td>
+		<td><img src="imagens/cambuci.png" /></td>
+		<td><img src="imagens/caqui.png" /></td>
+	</tr>	
+	<tr>
+		<td><img src="imagens/carambola.png" /></td>
+		<td><img src="imagens/cereja.png" /></td>
+		<td><img src="imagens/chirimoya.png" /></td>
+	</tr>	
+	<tr>
+		<td><img src="imagens/cidra.png" /></td>
+		<td><img src="imagens/coco.png" /></td>
+		<td><img src="imagens/cupuacu.png" /></td>
+	</tr>	
+	<tr>
+		<td><img src="imagens/damasco.png" /></td>
+		<td><img src="imagens/framboesa.png" /></td>
+		<td><img src="imagens/frutapao.png" /></td>
+	</tr>	
+	<tr>
+		<td><img src="imagens/goiaba.png" /></td>
+		<td><img src="imagens/grapefruit.png" /></td>
+		<td><img src="imagens/graviola.png" /></td>
+	</tr>	
+	<tr>
+		<td><img src="imagens/jabuticaba.png" /></td>
+		<td><img src="imagens/jaca.png" /></td>
+		<td><img src="imagens/jambo.png" /></td>
+	</tr>	
+	<tr>
+		<td><img src="imagens/jenipapo.png" /></td>
+		<td><img src="imagens/kino.png" /></td>
+		<td><img src="imagens/kiwi.png" /></td>
+	</tr>		
+</table>
+<div id="pageNavPosition" style="padding-top: 20px" align="center">
+<script>
+var pager = new Pager('tabelaFrutas', 3);
+pager.init();
+pager.showPageNav('pager', 'pageNavPosition');
+pager.showPage(1);
+</script>
+
+</body>
+
+</html>
