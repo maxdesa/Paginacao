@@ -28,7 +28,12 @@ pager.showPage(1);
 </script>
 ```
 OBS:
-No codigo abaixo *tabelaFrutas* corresponde ao ID da tabela o valor *3* corresponde a quantidade de linhas que voce deseja que sejam exibidas por pagina. Vale ressaltar que essa paginação considera a primeira linha da tabela como sendo um cabeçalho, sendo assim o mesmo nunca é ocultado.
+No codigo abaixo **tabelaFrutas** corresponde ao ID da tabela o valor **3** corresponde a quantidade de linhas que voce deseja que sejam exibidas por pagina. 
 ```
 var pager = new Pager('tabelaFrutas', 3);
 ```
+No codigo abaixo **pageNavPosition** corresponde ao ID da DIV aonde será renderizado a barra de navegação.
+```
+pager.showPageNav('pager', 'pageNavPosition');
+```
+Vale ressaltar que essa paginação considera a primeira linha da tabela como sendo um cabeçalho, sendo assim o mesmo nunca é ocultado.
