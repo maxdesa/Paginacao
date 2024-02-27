@@ -37,3 +37,6 @@ No codigo abaixo **pageNavPosition** corresponde ao ID da DIV aonde será render
 pager.showPageNav('pager', 'pageNavPosition');
 ```
 Vale ressaltar que essa paginação considera a primeira linha da tabela como sendo um cabeçalho, sendo assim o mesmo nunca é ocultado.
+
+Exemplo em execução
+[https://jsfiddle.net/maxdesa/w5qnkyjx/10/](https://jsfiddle.net/maxdesa/w5qnkyjx/10/)
